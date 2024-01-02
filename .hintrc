@@ -9,6 +9,14 @@
         "document-title": "off"
       }
     ],
-    "axe/language": "off"
+    "axe/language": "off",
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
+        ]
+      }
+    ]
   }
 }
