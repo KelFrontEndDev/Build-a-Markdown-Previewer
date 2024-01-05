@@ -5,7 +5,8 @@
 }
 
 #drum-machine {
-  background-color: aquamarine;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
   height: 450px;
   width: 500px;
   display: flex;
@@ -13,9 +14,18 @@
   align-items: center;
   justify-content: center;
 }
+
 #display {
   text-align: center;
-  padding-bottom: 20px;
+  text-decoration: underline;
+  padding-bottom: 0;
+  font-family: 'Bungee Spice', sans-serif;
+  font-size: 25px;
+}
+
+#activeKey {
+  font-size: 30px;
+  background-color: rgb(217, 222, 218);
 }
 .drum-pads {
   display: grid;
@@ -33,7 +43,9 @@
   margin: 10px;
   border-radius: 5px;
   background-color: black;
+  font-family: 'Bungee Spice', sans-serif;
+  font-size: 35px;
   color: aliceblue;
-  
-
 }
+ 
+ 

@@ -69,7 +69,7 @@ useEffect(() => {
     return (
         <div className="App">
             <div id="drum-machine">
-                <div id="display">Active sound: {activeKey}</div>
+                <div id="display">Active sound <div id="activeKey">{activeKey}</div></div>
                 <div className="drum-pads">
                 {drumPads.map((drumPad) => (
                   <div 
