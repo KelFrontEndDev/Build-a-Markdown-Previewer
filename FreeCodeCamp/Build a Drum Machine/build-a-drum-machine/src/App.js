@@ -15,6 +15,7 @@ useEffect(() => {
         {
           keyCode: 81,
           text: 'Q',
+          sound: 'Heater 1',
           src: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'
         },
         {
@@ -68,7 +69,7 @@ useEffect(() => {
     return (
         <div className="App">
             <div id="drum-machine">
-                <div id="display">{activeKey}</div>
+                <div id="display">Active sound: {activeKey}</div>
                 <div className="drum-pads">
                 {drumPads.map((drumPad) => (
                   <div 
